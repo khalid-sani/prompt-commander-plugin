@@ -1,7 +1,7 @@
 {
-  "name": "prompt-commander",
+  "name": "prompt-commander-dev",
   "interface": {
-    "displayName": "Prompt Commander"
+    "displayName": "Prompt Commander Dev"
   },
   "plugins": [
     {

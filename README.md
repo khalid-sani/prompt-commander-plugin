@@ -1,13 +1,13 @@
 # Prompt Commander for Codex
 
-Play [Prompt Commander](https://promptcommander.gg) from Codex with its hosted MCP server and the plugin's gameplay advisor skill.
+Play [Prompt Commander Dev](https://dev.promptcommander.gg) from Codex with its hosted MCP server and the plugin's gameplay advisor skill.
 
 ## Install
 
 ```bash
-codex plugin marketplace add khalid-sani/prompt-commander-plugin
-codex plugin add prompt-commander@prompt-commander
-codex mcp login prompt-commander
+codex plugin marketplace add khalid-sani/prompt-commander-plugin --ref dev
+codex plugin add prompt-commander@prompt-commander-dev
+codex mcp login prompt-commander-dev
 ```
 
 Complete browser sign-in, then start a new Codex task and ask: “Advisor, show me my kingdom.”
@@ -23,8 +23,8 @@ npx skills add khalid-sani/prompt-commander-plugin --skill prompt-commander -g -
 ## Update
 
 ```bash
-codex plugin marketplace upgrade prompt-commander
-codex plugin add prompt-commander@prompt-commander
+codex plugin marketplace upgrade prompt-commander-dev
+codex plugin add prompt-commander@prompt-commander-dev
 ```
 
 Start a new task after updating so Codex loads the new plugin version.

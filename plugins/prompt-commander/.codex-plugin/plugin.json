@@ -1,12 +1,12 @@
 {
   "name": "prompt-commander",
-  "version": "0.1.3",
+  "version": "0.1.4-dev.0",
   "description": "Play Prompt Commander through its connected game tools.",
   "author": {
     "name": "Khalid Sani",
     "url": "https://github.com/khalid-sani"
   },
-  "homepage": "https://promptcommander.gg",
+  "homepage": "https://dev.promptcommander.gg",
   "repository": "https://github.com/khalid-sani/prompt-commander-plugin",
   "keywords": [
     "game",
@@ -16,7 +16,7 @@
   "mcpServers": "./.mcp.json",
   "skills": "./skills/",
   "interface": {
-    "displayName": "Prompt Commander",
+    "displayName": "Prompt Commander Dev",
     "shortDescription": "Multiplayer strategy game tools",
     "longDescription": "Access game state, buildings, training, scouting, attacks, events, rankings, and player profiles.",
     "developerName": "Khalid Sani",
@@ -25,7 +25,7 @@
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://promptcommander.gg",
+    "websiteURL": "https://dev.promptcommander.gg",
     "brandColor": "#2AA6B2",
     "composerIcon": "./assets/prompt-commander-mark.png",
     "logo": "./assets/prompt-commander-mark.png",
