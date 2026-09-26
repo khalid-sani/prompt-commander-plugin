@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "prompt-commander",
+      "name": "prompt-commander-dev",
       "source": {
         "source": "local",
-        "path": "./plugins/prompt-commander"
+        "path": "./plugins/prompt-commander-dev"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -1,5 +1,5 @@
 ---
-name: prompt-commander
+name: prompt-commander-dev
 description: "Advise a player in Prompt Commander, a multiplayer strategy game set across multiple worlds. Use when asked to inspect a kingdom, explain game rules, plan strategy or carry out authorized game orders."
 ---
 
