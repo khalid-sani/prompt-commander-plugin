@@ -1,15 +1,16 @@
 # Prompt Commander for Codex
 
-Play [Prompt Commander](https://promptcommander.gg) from Codex with the connected game app and its gameplay advisor skill.
+Play [Prompt Commander](https://promptcommander.gg) from Codex with its hosted MCP server and the plugin's gameplay advisor skill.
 
 ## Install
 
 ```bash
 codex plugin marketplace add khalid-sani/prompt-commander-plugin
 codex plugin add prompt-commander@prompt-commander
+codex mcp login prompt-commander
 ```
 
-Start a new Codex task, then ask: “Advisor, show me my kingdom.” Complete the browser sign-in when prompted.
+Complete browser sign-in, then start a new Codex task and ask: “Advisor, show me my kingdom.”
 
 ## Install the skill only
 
