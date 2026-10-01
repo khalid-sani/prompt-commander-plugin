@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "prompt-commander",
+  "version": "0.2.0",
+  "description": "Play Prompt Commander with an AI advisor and the full Stronghold app.",
+  "author": {
+    "name": "Khalid Sani",
+    "url": "https://github.com/khalid-sani"
+  },
+  "homepage": "https://promptcommander.gg",
+  "repository": "https://github.com/khalid-sani/prompt-commander-plugin",
+  "keywords": [
+    "game",
+    "strategy",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Prompt Commander",
+        "shortDescription": "Multiplayer strategy game tools",
+        "longDescription": "Open the live Stronghold, issue game orders, and view messages, rankings and your profile beside your conversation.",
+        "developerName": "Khalid Sani",
+        "category": "Games",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
+        "websiteURL": "https://promptcommander.gg",
+        "brandColor": "#2AA6B2",
+        "composerIcon": "./assets/prompt-commander-mark.png",
+        "logo": "./assets/prompt-commander-mark.png",
+        "defaultPrompt": [
+          "Open my Stronghold.",
+          "What should I build or train next?",
+          "Review active events and rankings."
+        ]
+      }
+    }
+  }
+}
