@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "prompt-commander": {
-      "type": "http",
-      "url": "https://promptcommander.gg/mcp",
-      "oauth_resource": "https://promptcommander.gg/mcp"
-    }
-  }
-}
