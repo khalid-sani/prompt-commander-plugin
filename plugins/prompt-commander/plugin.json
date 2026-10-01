@@ -32,7 +32,6 @@
         "logo": "./assets/prompt-commander-mark.png",
         "defaultPrompt": [
           "Open my Stronghold.",
-          "Show my current game state.",
           "What should I build or train next?",
           "Review active events and rankings."
         ]
